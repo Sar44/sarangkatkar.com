@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+.main{
+    display: flex;
+}
+.sidebar{
+    position: absolute ;
+    background-color: rgb(255, 255, 255);
+        height: 100vh;
+        font-family: 'Headland One', serif;
+     transition: transform 0.3s ease-in;
+    }
+
+.sidebargo{
+        transform: translate(-270px, 0px);
+        position: absolute;
+        
+    }
+.sidebar nav{
+padding: 45px;
+}
+
+.sidebar li {
+    list-style: none;
+    font-size: 33px;
+    padding: 33px;
+}
+.sidebar li a{
+    text-decoration: none;
+    color: rgb(20, 79, 167);
+
+}
+
+.container {
+    display: flex;
+}
+
+.infocontener {
+    background-color: rgb(255, 255, 255);
+    height: 60vh;
+    width: 80vw;
+    margin: 40px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.myinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Headland One', serif;
+}
+
+.hello {
+    font-size: 35px;
+    font-family: 'Headland One', serif;
+}
+
+.name {
+    font-size: 50px;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.about {
+   
+    font-size: 20px;
+    font-family: 'Headland One', serif;
+}
+
+.moreabout {
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: 'Headland One', serif;
+}
+
+.btn button {
+    margin-top: 15px;
+    border-radius: 25px;
+    border: double;
+    color: white;
+    background-color: rgb(47, 154, 197);
+    margin: 10px 3px;
+    font-size: 15px;
+    font-family: system-ui;
+    padding: 10px 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button.btn.btn-sm {
+    padding: 5px 20px;
+    font-family: system-ui; 
+}
+button.btn.btn-sm{
+       color: white;
+    background-color: rgb(35 62 218);
+}
+.btn button:hover {
+   background-color: white;
+   color: rgb(47, 154, 197);
+}
+button.btn.btn-sm:hover {
+   background-color: white;
+   color: rgb(35 62 218);
+}
+.mypic img {
+    height: 65vh
+}
+.contectform{
+    font-family: 'Headland One', serif;
+    padding-top: 0 50px;
+    text-align: center;
+}
+.contectform h1{
+    font-family: 'Headland One', serif;
+    color: rgb(35, 62, 218);
+     margin-top: 100px;
+    padding-left: 50px;
+    text-align: justify;
+   }
+
+.contectform form div{
+    margin: 5px 30px;
+}
+div#emailHelp {
+    font-size: 10px;
+    color: dodgerblue;
+        padding-left: 20px;
+}
+input#exampleInputEmail1 {
+    display: flex;
+    padding: 0px 52px;
+    align-content: center;
+        padding-left: 200px;
+}
+input#phone1 {
+    display: flex;
+    align-content: center;
+    padding: 0 50px;
+    padding-left: 200px;
+}
+.mb-3.form-check {
+      padding-left: 20px;
+}
+.myintro {
+    padding: 15px 25px;
+    margin-top: 40px;
+}
+.intro {
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross {
+    margin-left: 230px;
+} 
+.intro, .blog{
+    margin: 50px 45px;
+}
+      .icons{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+    .icons a i{
+      height: 100px;
+      width: 100px;
+      background-color: #f5f6fa;
+      border-radius: 50px;
+      text-align: center;
+      margin: 10px;
+      box-shadow: 1px 4px 2px 2px #dcdde1;  
+      line-height: 110px;
+     
+    }
+    a i{
+        transition: all 0.3s linear;
+    }
+    a:hover i{
+        transform: scale(1.5);
+    }
+    
+       .fa-facebook:hover{
+            color: #0097e6;
+        }
+       .fa-instagram:hover{
+            color: #e84393;
+        }
+       .fa-twitter:hover{
+            color: #0097e6;
+        }
+       .fa-youtube:hover{
+            color: #e84118;
+        }
+       .fa-whatsapp:hover{
+            color: #02d87f;
+        }
